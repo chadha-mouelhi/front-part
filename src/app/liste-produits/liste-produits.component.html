@@ -1,0 +1,10 @@
+<p>liste-produits works!</p>
+<div *ngFor="let produit of produits">
+    <h3>{{ produit.nom }}</h3>
+    <p>Prix : {{ produit.prix | currency }}</p>
+    <img [src]="produit.urlimg" alt="{{ produit.nom }}">
+  </div>
+
+
+
+  <h3>  chadha chadha</h3>
